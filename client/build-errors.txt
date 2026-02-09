@@ -1,0 +1,27 @@
+﻿src/components/editor/plugins/CollapsiblePlugin/CollapsibleUtils.ts(15,7): error TS2339: Property 'onbeforematch' does not exist on type 'HTMLElement'.
+src/components/editor/ui/DropDown.tsx(145,33): error TS2322: Type 'RefObject<HTMLDivElement | null>' is not assignable to type 'LegacyRef<HTMLDivElement> | undefined'.
+  Type 'RefObject<HTMLDivElement | null>' is not assignable to type 'RefObject<HTMLDivElement>'.
+    Type 'HTMLDivElement | null' is not assignable to type 'HTMLDivElement'.
+      Type 'null' is not assignable to type 'HTMLDivElement'.
+src/components/editor/ui/DropDown.tsx(219,42): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(type: "click", listener: (this: Document, ev: MouseEvent) => any, options?: boolean | AddEventListenerOptions | undefined): void', gave the following error.
+    Argument of type '(event: PointerEvent) => void' is not assignable to parameter of type '(this: Document, ev: MouseEvent) => any'.
+      Types of parameters 'event' and 'ev' are incompatible.
+        Type 'MouseEvent' is missing the following properties from type 'PointerEvent': altitudeAngle, azimuthAngle, height, isPrimary, and 10 more.
+  Overload 2 of 2, '(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | AddEventListenerOptions | undefined): void', gave the following error.
+    Argument of type '(event: PointerEvent) => void' is not assignable to parameter of type 'EventListenerOrEventListenerObject'.
+      Type '(event: PointerEvent) => void' is not assignable to type 'EventListener'.
+        Types of parameters 'event' and 'evt' are incompatible.
+          Type 'Event' is missing the following properties from type 'PointerEvent': altitudeAngle, azimuthAngle, height, isPrimary, and 37 more.
+src/components/editor/ui/DropDown.tsx(222,47): error TS2769: No overload matches this call.
+  Overload 1 of 2, '(type: "click", listener: (this: Document, ev: MouseEvent) => any, options?: boolean | EventListenerOptions | undefined): void', gave the following error.
+    Argument of type '(event: PointerEvent) => void' is not assignable to parameter of type '(this: Document, ev: MouseEvent) => any'.
+      Types of parameters 'event' and 'ev' are incompatible.
+        Type 'MouseEvent' is missing the following properties from type 'PointerEvent': altitudeAngle, azimuthAngle, height, isPrimary, and 10 more.
+  Overload 2 of 2, '(type: string, listener: EventListenerOrEventListenerObject, options?: boolean | EventListenerOptions | undefined): void', gave the following error.
+    Argument of type '(event: PointerEvent) => void' is not assignable to parameter of type 'EventListenerOrEventListenerObject'.
+      Type '(event: PointerEvent) => void' is not assignable to type 'EventListener'.
+        Types of parameters 'event' and 'evt' are incompatible.
+          Type 'Event' is missing the following properties from type 'PointerEvent': altitudeAngle, azimuthAngle, height, isPrimary, and 37 more.
+src/components/video/VideoPlayer.tsx(17,15): error TS2305: Module '"@/lib/videoApi"' has no exported member 'VideoScene'.
+src/context/AuthContext.tsx(1,71): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

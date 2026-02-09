@@ -1,0 +1,1 @@
+﻿src/routes/notes.ts(68,35): error TS2353: Object literal may only specify known properties, and 'userId' does not exist in type '{ documentId: string; }'.
