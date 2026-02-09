@@ -4,9 +4,13 @@
 
 ![Lumina Banner](client/public/banner.png)
 
-## 🌟 The 6 Core Features
+## 🌟 The 7 Core Features
 
 Lumina isn't just one tool; it's a suite of 6 intelligent engines working together.
+
+### 1. Live AI Interview
+An AI Agent which takes Live AI Interview analyzing both your audio and video with the help of Google Live API!
+Interactive Agent with context as your resume and thne gives report analysis at the end of interview.
 
 ### 1. Intelligent Job Discovery 💼
 Stop mindless scrolling. Lumina uses a **5-Agent Pipeline** to scour the web, aggregate listings, and score them against your resume.
